@@ -15,7 +15,7 @@ namespace Domain.Entities
         public string? Address { get; set; }
         public string? Type { get; set; }
         public string? Phone { get; set; }
-        public ICollection<Stock>?  Stocks { get; set; }
+        public ICollection<Product>?  Stocks { get; set; }
 
     }
 }

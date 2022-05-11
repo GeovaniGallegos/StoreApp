@@ -14,7 +14,6 @@ namespace Persistance
         {
         }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Stock> Stock { get; set; }
         public DbSet<Store> Stores { get; set; }
     }
 }

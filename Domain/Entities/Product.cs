@@ -15,6 +15,7 @@ namespace Domain.Entities
         public decimal Price { get; set; }
         public decimal SellPrice { get; set; }
         public string? Description { get; set; }
+        public int Quantity { get; set; }
 
     }
 }

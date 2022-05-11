@@ -9,11 +9,11 @@ namespace Services.Abstractions
 {
     public interface IStoreService
     {
-        Task<Store> GetStoreById();
+        Task<Store> GetStoreById( Guid id);
         Task<IEnumerable<Store>> GetAllStores();
         void AddStore(Store store);
         void UpdateStore(Store store);
-        void DeleteStore(Store store);
+        void DeleteStore(Guid id);
         
     }
 }

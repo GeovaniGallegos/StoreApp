@@ -51,7 +51,7 @@ namespace Presentation.Controllers
         public ActionResult Delete(Guid id)
         {
             _productService.DeleteProduct(id);
-            return Ok(id);
+            return Ok();
         }
     }
 }

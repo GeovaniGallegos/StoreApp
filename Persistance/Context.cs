@@ -13,8 +13,8 @@ namespace Persistance
         public Context(DbContextOptions options) : base(options)
         {
         }
-        public DbSet<Product>? Products { get; set; }
-        public DbSet<Stock>? Stock { get; set; }
-        public DbSet<Store>? Stores { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Stock> Stock { get; set; }
+        public DbSet<Store> Stores { get; set; }
     }
 }

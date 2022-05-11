@@ -9,11 +9,11 @@ namespace Services.Abstractions
 {
     public interface IProductService
     {
-        Task<Product> GetProductById();
+        Task<Product> GetProductById(Guid id);
         Task<IEnumerable<Product>> GetAllProducts();
         void AddProduct(Product product);
         void UpdateProduct(Product product);
-        void DeleteProduct(Product product);
+        void DeleteProduct(Guid id);
 
       
     }

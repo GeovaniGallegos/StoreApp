@@ -1,5 +1,7 @@
 global using Persistance;
 global using Microsoft.EntityFrameworkCore;
+using Services.Abstractions;
+using Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,7 @@ builder.Services.AddDbContext<Context>(options =>{
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 
 var app = builder.Build();

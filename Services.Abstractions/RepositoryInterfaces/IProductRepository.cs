@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace Domain.RepositoryInterfaces
 {
-    public interface IProductRepository: IRepository <Product>
-    {
+    public interface IProductRepository: IRepository<Product>
+    { 
 
     }
 }

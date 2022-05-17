@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreApp", "StoreApp\StoreApp.csproj", "{DD34F5EE-2866-4A2D-A165-438ED3E969B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreApp", "StoreApp\StoreApp.csproj", "{DD34F5EE-2866-4A2D-A165-438ED3E969B7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B55DA564-BC3B-4687-A471-952064B757E4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrestructure", "Infrestructure", "{90AB9F14-9AB4-4EBE-90C0-DC6D0154691D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{96C173FE-791A-47DA-9808-18DE0401B9BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{96C173FE-791A-47DA-9808-18DE0401B9BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{80ACCD45-5567-4057-9A0D-B4B39F5F66A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Services\Application.csproj", "{80ACCD45-5567-4057-9A0D-B4B39F5F66A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Abstractions", "Services.Abstractions\Services.Abstractions.csproj", "{76F1F673-0B6D-4D7D-B587-32239D0D760D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Abstractions", "Services.Abstractions\Abstractions.csproj", "{76F1F673-0B6D-4D7D-B587-32239D0D760D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{DC66F132-454E-4289-9C53-9B37A6CD1907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation", "Presentation\Presentation.csproj", "{DC66F132-454E-4289-9C53-9B37A6CD1907}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistance", "Persistance\Persistance.csproj", "{61815E66-8C55-471B-970C-769187230A8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistance", "Persistance\Persistance.csproj", "{61815E66-8C55-471B-970C-769187230A8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

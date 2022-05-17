@@ -1,6 +1,6 @@
 global using Persistance;
 global using Microsoft.EntityFrameworkCore;
-using Services.Abstractions;
+using Services.ServicesInterfaces;
 using Services;
 
 var builder = WebApplication.CreateBuilder(args);

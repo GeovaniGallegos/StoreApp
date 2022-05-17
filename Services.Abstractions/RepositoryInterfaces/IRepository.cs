@@ -8,10 +8,10 @@ namespace Domain.RepositoryInterfaces
 {
     public interface IRepository <T>
     {
-        IEnumerable<T> FindAll ();
-        T FindById (Guid id);
-        void Create (T entity);
-        void Update (T entity);
-        void Delete (T entity);
+        Task<IEnumerable<T>> FindAll();
+        Task<T> FindById(Guid id);
+        void Create(T entity);
+        void Update(T entity);
+        void Delete(Guid id);
     }
 }
